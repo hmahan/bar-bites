@@ -1,0 +1,318 @@
+/*   
+Theme Name: The HTML5 Reset Blank Theme ORIGINAL
+Theme URI: http://html5reset.org
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Monkey Do!
+Author URI: http://monkeydo.biz
+Version: 1
+*/
+
+/*
+	HTML5 Reset Wordpress Theme :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+	
+	Eric Meyer					:: http://ericmeyer.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+	
+	Special thanks: The Wordpress theme owes its start to an empty theme authored 
+		by Chris Coyier & Jeff Starr: http://digwp.com
+	
+-------------------------------------------------------------------------------*/
+
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+* {
+	margin:0 auto;
+	font-size: 100%;
+}
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* Responsive images and other embedded objects */
+
+img,
+object,
+embed {max-width: 100%;}
+
+body {
+	max-width: 980px;
+}
+
+body h2 {
+	font-color: 8e0a0a;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+a:link {color:#8e0a0a; text-decoration:none;}  
+a:visited {color:#8e0a0a; text-decoration:none;}
+a:hover {color:#8e0a0a; text-decoration:underline;} 
+a:active {color:#8e0a0a; text-decoration:underline;} 
+
+.postmetadata {
+	padding-left: 0;
+}
+
+.meta {
+	padding-left: 0;
+	padding-right: 53%;
+	padding-bottom: 3%;
+}
+
+/*Header*/
+header {
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+/*Nav Bar*/
+#navbar li {
+	display:inline;
+	padding-left: 5%;
+	}
+	
+#navbar {
+	font-size: .90em;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-left: .5%;
+	padding-bottom: 5%;
+}
+
+#all {
+	float: left;
+	width: 60%;
+	padding-right: 4%;
+	margin-left: 5%;
+}
+
+/*top image*/
+
+#mixology {
+	padding-left: 16%;
+	padding-bottom: 5%;
+}
+
+/*aside*/
+#aside {
+	/*background-color: #e2f4ff;
+	float: left;
+	width: 30%;
+	height: 100%;*/
+	background: none repeat scroll 0 0 #e2f4ff;
+    float: left;
+    overflow: hidden;
+    width: 30%;
+	height: 1000px;
+}
+
+#asidecontent {
+	padding-left: 3%;
+}
+
+#aside h2 {
+	color: #4f423b;
+	font-size: 1.10em;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 3%;
+	padding-top: 2%;
+}
+
+img#bio {
+	float: left;
+	padding-right: 2%;
+}
+
+#asidecontent #aboutme {
+	padding-bottom: 6%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .80em;
+}
+
+#asidecontent iframe {
+	padding-left: 8%;
+	padding-bottom: 6%;
+}
+
+#aside #follow {
+	padding-bottom: 6%;
+}
+
+#aside #follow li {
+	display:inline;
+	padding-left: 15%;
+}
+
+#aside ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: helvetica, arial, sand-serif;
+	font-size: .85em;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
+}
+
+/*Footer*/
+
+footer {
+	font-size: .75em;
+	font-style: italic;
+	padding-left: 33%;
+	float: left;
+	clear: both;
+}
+
+/*Story-Level Style*/
+
+.entry-content p {
+	margin-top: 1%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .95em;
+}
+
+.entry-content img {
+	float: left;
+	padding-right: 2%;
+}
+
+.entry-content {
+	float:left;
+	padding-bottom: 5%;
+	width: 980px;
+	ont-family: Helvetica, Arial, sans-serif;
+	font-size: .95em;
+}
+
+blockquote {
+	font-style:italic;
+	padding-left: 3%;
+}
+
+
+.entry-title {
+	padding-bottom: 3%;
+	font-size: 1.50em;
+	font-color: #4f423b;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p.wp-caption-text {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .95em;
+	
+}
+
+.attachment-custom_thumb {
+	float:left;
+	margin-right: 1%;
+}
+
+#comments {
+	float: left;
+	clear: both;
+	padding-top: 2%;
+}
+
+#meta {
+	float: left;
+	width: 100%;
+	padding-left: -40%;
+	margin: 0 0 0 0;
+}
+
+.alignright {
+	float:right;
+	margin-left: 1%;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1%;
+}
+
+#all h2 {
+	padding-top: 6%;
+	width: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#all .entry p {
+	font-family: Georgia, Georgia, "Times New Roman", Times, serif;
+	font-size: .85em;
+}
+
+/*Page Styles*/
+
+.title {
+	font-color:8e0a0a;
+	font-size: 1.10em;
+	padding-top: 4%;
+	padding-bottom: 1%;
+}
+
+#courtesy {
+	font-size: .75em;
+	font-style: italic;
+	padding-left: 10%;
+}
+
+#chicago li{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.meta {
+	width: 100%;
+}
+
+.postmetadata {
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+#post-68 {
+	padding-top: 3%;
+}
+
+	
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+	
+		
+}
+
+@media all and (orientation: portrait) {
+	
+}
+
+@media all and (orientation: landscape) {
+	
+}
